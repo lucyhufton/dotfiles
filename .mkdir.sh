@@ -2,4 +2,3 @@
 
 mkdir ~/Sites
 mkdir ~/Sites/GitHub
-

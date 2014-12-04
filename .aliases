@@ -1,6 +1,6 @@
 # editing/reloading bash configs
-alias editAliases="open -e ~/dotfiles/.aliases"
-alias reloadAliases="source ~/dotfiles/.aliases"
+alias editAliases="open -e ~/.aliases"
+alias reloadAliases="source ~/.aliases"
 
 # dir navigation
 alias cdd="cd ~/Desktop"

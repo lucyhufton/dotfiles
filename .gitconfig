@@ -1,3 +1,5 @@
 [user]
 	name = Daniel Furze
 	email = daniel@furzeface.com
+[push]
+	default = simple

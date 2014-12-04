@@ -9,7 +9,7 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install Homebrew
-echo Installing Homebrew (gets Xcode cli developer tools too)
+echo Installing Homebrew \(gets Xcode cli developer tools too\)
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install Git
@@ -17,7 +17,7 @@ echo Installing Git
 brew install git
 
 # Install Node.js. Note: this installs `npm` too, using the recommended installation method.
-echo Installing Node && npm
+echo Installing Node
 brew install node
 
 # Install Brew Cask for managing other apps.

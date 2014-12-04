@@ -1,0 +1,6 @@
+# directory creation
+makeAndChangeDirectory() {
+  mkdir $1 && cd $_
+}
+
+alias mcd=makeAndChangeDirectory

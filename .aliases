@@ -1,0 +1,58 @@
+# editing/reloading bash configs
+
+alias editAliases="open -e ~/dotfiles/.aliases"
+alias reloadAliases="source ~/dotfiles/.aliases"
+
+
+# dir navigation
+
+alias cdd="cd ~/Desktop"
+alias cds="cd ~/Sites"
+alias cdg="cd ~/Sites/GitHub"
+alias cdbb="cd ~/Sites/BuildingBlocks"
+
+
+# shortcuts
+
+alias ..="cd ../"
+alias ~="cd ~" 
+alias cl="clear"
+alias l="ls -la"
+alias rem="sudo rm -R"
+alias restarta="sudo apachectl restart"
+
+
+# hacks to show/hide hidden/dot files
+
+alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app" 
+alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app"
+
+
+# laziness
+
+alias sbl="open -a /Applications/Sublime\ Text\ 2.app "
+alias trello="open -a /Applications/Trello.app"
+alias url="open -a /Applications/Google\ Chrome\ Canary.app "
+
+# puuure laziness
+
+alias drive="open -a /Applications/Google\ Chrome\ Canary.app http://drive.google.com"
+alias github="open -a /Applications/Google\ Chrome\ Canary.app https://github.com"
+alias travis="open -a /Applications/Google\ Chrome\ Canary.app https://travis-ci.org"
+
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+
+# git commands
+
+alias ga="git add -A"
+alias gb="git branch"
+alias gc="git commit -m"
+alias gcp="git cherry-pick"
+alias gd="git diff"
+alias go="git checkout"
+alias gl="git log --graph --all"
+alias gp="git push"
+alias gs="git status"

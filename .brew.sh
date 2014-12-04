@@ -9,7 +9,7 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install Homebrew
-echo Installing Homebrew \(gets Xcode cli developer tools too\)
+echo Installing Homebrew \(gets Xcode cli developer tools too\).
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install Git
@@ -22,4 +22,4 @@ brew install node
 
 # Install Brew Cask for managing other apps.
 echo Installing Brew Cask
-brew install brew-cask
+brew install caskroom/cask/brew-cask

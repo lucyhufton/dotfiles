@@ -1,20 +1,11 @@
-# OS
+# Folder view configuration files
 .DS_Store
+Desktop.ini
 
-# Logging
-*.log
-tmp
+# Thumbnail cache files
+._*
+Thumbs.db
 
-# Project meta
-.sass-cache
-*.sublime-workspace
-
-# Don't commit dependencies!
-node_modules
-src/assets/components
-
-# Generated files
-dist
-
-# Secret
-.aws.json
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes

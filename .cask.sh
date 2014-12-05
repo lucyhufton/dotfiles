@@ -27,6 +27,7 @@ brew cask install --appdir="/Applications" firefox-nightly
 
 # Additional apps
 echo Installing some additional apps
+brew cask install --appdir="/Applications" all-the-gifs
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" spotify
 

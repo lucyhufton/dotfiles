@@ -23,3 +23,5 @@ brew install node
 # Install Brew Cask for managing other apps.
 echo Installing Brew Cask
 brew install caskroom/cask/brew-cask
+# Install Cask versions for beta version of apps :D
+brew tap caskroom/versions

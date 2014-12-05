@@ -30,6 +30,7 @@ echo Installing some additional apps
 brew cask install --appdir="/Applications" all-the-gifs
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" spotify
+brew cask install --appdir="/Applications" tunnelbear
 
 # Linking Cask apps to Alfred
 echo Linking apps to Alfred

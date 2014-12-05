@@ -8,19 +8,20 @@ brew cask install --appdir="/Applications" google-drive
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" vlc
 
-# Development
+# Development apps
 echo Installing Dev apps
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" sublime-text
-
-# brew cask install --appdir="/Applications" imagealpha
-# brew cask install --appdir="/Applications" imageoptim
+brew cask install --appdir="/Applications" sublime-text3
+brew cask install --appdir="/Applications" imagealpha
+brew cask install --appdir="/Applications" imageoptim
 
 # Browsers
 echo Installing browsers
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" firefox
-# TODO: Canary and Nightly.
+brew cask install --appdir="/Applications" google-chrome-canary
+brew cask install --appdir="/Applications" firefox-nightly
 
 # Additional apps
 echo Installing some additional apps

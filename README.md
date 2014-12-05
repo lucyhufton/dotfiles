@@ -4,7 +4,7 @@
 
 ## Install these files
 ```sh
-cd; curl -#L https://github.com/furzeface/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md}
+cd; curl -#L https://github.com/furzeface/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude=README.md
 ```
 
 #### Set sensible OSX defaults

@@ -15,6 +15,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # Install Git
 echo Installing Git
 brew install git
+brew install git-extras
 
 # Install Node.js. Note: this installs `npm` too, using the recommended installation method.
 echo Installing Node

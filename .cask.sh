@@ -6,6 +6,7 @@ brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" google-drive
 brew cask install --appdir="~/Applications" iterm2
+brew cask install --appdir="~/Applications" time-out
 brew cask install --appdir="~/Applications" vlc
 
 # Development apps

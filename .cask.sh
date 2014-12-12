@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Core Functionality
-echo Installing Core Apps
+echo Installing core apps
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" google-drive
@@ -10,7 +10,7 @@ brew cask install --appdir="~/Applications" time-out
 brew cask install --appdir="~/Applications" vlc
 
 # Development apps
-echo Installing Dev apps
+echo Installing dev apps
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" sublime-text3
@@ -19,7 +19,6 @@ brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" remote-desktop-connection
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
-
 
 # Browsers
 echo Installing browsers

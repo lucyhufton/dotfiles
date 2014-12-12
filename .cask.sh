@@ -16,8 +16,10 @@ brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
+brew cask install --appdir="/Applications" remote-desktop-connection
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
+
 
 # Browsers
 echo Installing browsers

@@ -12,10 +12,11 @@ brew cask install --appdir="~/Applications" vlc
 # Development apps
 echo Installing dev apps
 brew cask install --appdir="/Applications" adobe-creative-cloud
-brew cask install --appdir="/Applications" sublime-text
+brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" remote-desktop-connection
+brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
 

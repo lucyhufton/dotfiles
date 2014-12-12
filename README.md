@@ -43,3 +43,10 @@ bash .gitrepos.sh
 ```sh
 bash .init.sh
 ```
+
+#### and later&hellip;
+```sh
+bash .vms.sh
+```
+Gets [IE virtual machines](https://www.modern.ie/en-us/virtualization-tools#downloads) for [VirtualBox](https://www.virtualbox.org). This could take a while&hellip;
+

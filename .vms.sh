@@ -2,7 +2,7 @@
 mkdir -p VirtualBox\ VMs/modern.ie && cd VirtualBox\ VMs/modern.ie
 
 # Grab the VMs from modern.ie
-echo "Grabbing the VMs from modern.ie - best leave me running in the background... this could take a while."
+echo "Grabbing the VMs from modern.ie - best leave me running in the background…this could take a while."
 # IE8 Windows 7
 curl -O -L "https://www.modern.ie/vmdownload?platform=mac&virtPlatform=virtualbox&browserOS=IE8-Win7&parts=4&filename=VMBuild_20131127/VirtualBox/IE8_Win7/Mac/IE8.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar}"
 # IE9 Window 7
@@ -13,13 +13,13 @@ curl -O -L "https://www.modern.ie/vmdownload?platform=mac&virtPlatform=virtualbo
 curl -O -L "https://www.modern.ie/vmdownload?platform=mac&virtPlatform=virtualbox&browserOS=IE11-Win8.1&parts=4&filename=VMBuild_20140402/VirtualBox/IE11_Win8.1/Mac/IE11.Win8.1.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar}"
 
 # Change permissions to executable
-echo "Changing permissions..."
+echo "Changing permissions…"
 chmod +x IE8.Win7.For.MacVirtualBox.part1.sfx IE9.Win7.For.MacVirtualBox.part1.sfx IE10.Win8.For.MacVirtualBox.part1.sfx IE11.Win8.1.For.MacVirtualBox.part1.sfx
 
 # Run .sfx to expand into .ova
-echo "Running .sfx to expand into .ova for VirtualBox..."
+echo "Running .sfx to expand into .ova for VirtualBox…"
 ./IE8.Win7.For.MacVirtualBox.part1.sfx
 ./IE9.Win7.For.MacVirtualBox.part1.sfx
 ./IE10.Win8.For.MacVirtualBox.part1.sfx
 ./IE11.Win8.1.For.MacVirtualBox.part1.sfx
-echo "Done!"
+echo "Done! 😎"

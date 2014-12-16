@@ -22,3 +22,5 @@ shopt -s cdspell;
 # elif [ -f /etc/bash_completion ]; then
 # 	source /etc/bash_completion;
 # fi;
+
+export HISTTIMEFORMAT="%d/%m/%y %T - "

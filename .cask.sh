@@ -18,6 +18,7 @@ brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" remote-desktop-connection
 brew cask install --appdir="/Applications" sublime-text
+# brew cask install --appdir="/Applications" sourcetree # Cos who needs a GUI?! >:( 
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
 

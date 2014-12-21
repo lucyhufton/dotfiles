@@ -5,10 +5,10 @@ echo Installing core apps
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" google-drive
-brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="~/Applications" spectacle
-brew cask install --appdir="~/Applications" time-out
-brew cask install --appdir="~/Applications" vlc
+brew cask install --appdir="/Applications" iterm2
+brew cask install --appdir="/Applications" spectacle
+brew cask install --appdir="/Applications" time-out
+brew cask install --appdir="/Applications" vlc
 
 # Development apps
 echo Installing dev apps
@@ -18,7 +18,7 @@ brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" remote-desktop-connection
 brew cask install --appdir="/Applications" sublime-text
-# brew cask install --appdir="/Applications" sourcetree # Cos who needs a GUI?! >:( 
+# brew cask install --appdir="/Applications" sourcetree # Cos who needs a GUI?! >:(
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
 

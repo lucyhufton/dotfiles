@@ -15,6 +15,7 @@ echo Installing dev apps…
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" brackets
+brew cask install --appdir="/Applications" color-oracle
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim

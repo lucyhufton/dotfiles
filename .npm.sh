@@ -10,4 +10,5 @@ npm adduser furzeface
 
 npm i bower -g
 npm i grunt grunt-cli -g
+npm i gulp -g
 npm i yo -g

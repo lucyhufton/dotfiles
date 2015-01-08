@@ -19,7 +19,8 @@ brew install lynx
 # Install Git
 echo Installing Git…
 brew install git
-brew install git-extras
+# brew install git-extras # Debating whether this is that useful…
+brew install git-flow
 
 # Install Node.js - this installs `npm` too, using the recommended installation method
 echo Installing Node…

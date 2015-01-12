@@ -7,6 +7,11 @@
 cd; curl -#L https://github.com/furzeface/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude=README.md
 ```
 
+## Please note:
+> If you’re not me, you won’t want [`.gitconfig`](https://github.com/furzeface/dotfiles/blob/master/.gitconfig) to have my details, or [`.npm.sh`](https://github.com/furzeface/dotfiles/blob/master/.npm.sh#L9) to add me as a user.
+
+> I suggest you [fork this repository](https://github.com/furzeface/dotfiles/fork) and amend these scripts accordingly, as well as adding anything extra you need and removing anything in particular you hate.
+
 #### Set sensible OSX defaults
 ```sh
 bash .osx.sh
@@ -49,4 +54,3 @@ bash .init.sh
 bash .vms.sh
 ```
 Gets [IE virtual machines](https://www.modern.ie/en-us/virtualization-tools#downloads) for [VirtualBox](https://www.virtualbox.org). This could take a while&hellip;
-

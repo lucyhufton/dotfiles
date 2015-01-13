@@ -3,6 +3,11 @@ function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
 
+# Copy file contents to pasteboard
+function copy() {
+	cat "$@" | pbcopy
+}
+
 # Create a data URL from a file
 function dataurl() {
 	local mimeType=$(file -b --mime-type "$1");

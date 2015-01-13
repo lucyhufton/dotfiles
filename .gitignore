@@ -19,4 +19,5 @@ tmp
 *.sublime-workspace
 
 # Don't commit dependencies!
+bower_components
 node_modules

@@ -23,12 +23,15 @@ alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall F
 # laziness
 alias sbl="open -a /Applications/Sublime\ Text\ 2.app "
 alias trello="open -a /Applications/Trello.app"
-alias url="open -a /Applications/Google\ Chrome\ Canary.app "
+alias url="open -a /Applications/Google\ Chrome.app "
+alias op="open *.sublime-project"
 
 # puuure laziness
-alias drive="open -a /Applications/Google\ Chrome\ Canary.app http://drive.google.com"
-alias github="open -a /Applications/Google\ Chrome\ Canary.app https://github.com"
-alias travis="open -a /Applications/Google\ Chrome\ Canary.app https://travis-ci.org"
+alias bitbucket="open -a /Applications/Google\ Chrome.app https://bitbucket.org"
+alias drive="open -a /Applications/Google\ Chrome.app http://drive.google.com"
+alias github="open -a /Applications/Google\ Chrome.app https://github.com"
+alias mail="open -a /Applications/Google\ Chrome.app http://mail.google.com"
+alias travis="open -a /Applications/Google\ Chrome.app https://travis-ci.org"
 
 # git commands
 alias ga="git add -A"
@@ -38,7 +41,8 @@ alias gcp="git cherry-pick"
 alias gd="git diff"
 alias go="git checkout"
 alias gl="git log --graph --all"
-alias gp="git push"
+alias gpl="git pull"
+alias gps="git push"
 alias gs="git status"
 
 # Lock the screen (when going AFK)

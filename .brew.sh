@@ -26,6 +26,9 @@ brew install git-flow
 echo Installing Node…
 brew install node
 
+# echo Installing MongoDB…
+# brew install mongodb
+
 # Install Brew Cask for managing other apps
 echo Installing Brew Cask…
 brew install caskroom/cask/brew-cask

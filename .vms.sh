@@ -26,6 +26,10 @@ echo "Done! You now have Windows VMs 😎"
 
 # Create dir structure for Ubuntu VM if not already there and enter it
 mkdir -p ~/VirtualBox\ VMs/ubuntu && cd ~/VirtualBox\ VMs/ubuntu
+
+# Grab VMs from Ubuntu
+echo "Grabbing Ubuntu VM…"
+# Ubuntu 14.04.1 LTS
 curl -O -L "http://releases.ubuntu.com/14.04.1/ubuntu-14.04.1-desktop-amd64.iso"
 
 echo "Done! You now have a Ubuntu VM 😎"

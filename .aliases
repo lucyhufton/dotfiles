@@ -22,7 +22,7 @@ alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES; killall 
 alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app"
 
 # laziness
-alias sbl="open -a /Applications/Sublime\ Text\ 2.app "
+alias sbl="open -a /Applications/Sublime\ Text.app "
 alias trello="open -a /Applications/Trello.app"
 alias url="open -a /Applications/Google\ Chrome.app "
 alias op="open *.sublime-project"

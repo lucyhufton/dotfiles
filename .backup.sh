@@ -18,4 +18,3 @@ for file in .{aliases,bash_profile,bashrc,brew.sh,cask.sh,curlrc,editorconfig,ex
 	fi
 done;
 unset file;
-

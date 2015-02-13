@@ -4,9 +4,10 @@ alias reloadAliases="source ~/.aliases"
 
 # dir navigation
 alias cdd="cd ~/Desktop"
-alias cds="cd ~/Sites"
-alias cdg="cd ~/Sites/GitHub"
 alias cdbb="cd ~/Sites/BuildingBlocks"
+alias cdg="cd ~/Sites/GitHub"
+alias cdl="cd ~/Sites/Labs"
+alias cds="cd ~/Sites"
 
 # shortcuts
 alias ..="cd ../"
@@ -33,18 +34,6 @@ alias drive="open -a /Applications/Google\ Chrome.app http://drive.google.com"
 alias github="open -a /Applications/Google\ Chrome.app https://github.com"
 alias mail="open -a /Applications/Google\ Chrome.app http://mail.google.com"
 alias travis="open -a /Applications/Google\ Chrome.app https://travis-ci.org"
-
-# git commands
-alias ga="git add -A"
-alias gb="git branch"
-alias gc="git commit -m"
-alias gcp="git cherry-pick"
-alias gd="git diff"
-alias go="git checkout"
-alias gl="git log --graph --all"
-alias gpl="git pull"
-alias gps="git push"
-alias gs="git status"
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
@@ -97,4 +86,3 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 alias spotoff="sudo mdutil -a -i off"
 # Enable Spotlight
 alias spoton="sudo mdutil -a -i on"
-

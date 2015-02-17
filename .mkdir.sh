@@ -1,4 +1,3 @@
 # Create my standard directory structure
 
-mkdir ~/Sites
-mkdir ~/Sites/GitHub
+mkdir -p ~/Sites/{BuildingBlocks,GitHub,Labs}

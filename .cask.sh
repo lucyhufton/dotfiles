@@ -1,4 +1,6 @@
-#!/bin/sh
+# cask.sh
+
+# Some apps rely on homebrew-versions - `brew tap caskroom/versions` is ran in `.brew.sh`
 
 # Core Functionality
 echo Installing core apps…
@@ -21,7 +23,7 @@ brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" mamp # Cos you’ll need PHP SOME time…
 brew cask install --appdir="/Applications" remote-desktop-connection
-brew cask install --appdir="/Applications" sublime-text-3
+brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" sourcetree # Cos you’ll need a GUI SOME time…
 brew cask install --appdir="/Applications" textwrangler
 brew cask install --appdir="/Applications" vagrant

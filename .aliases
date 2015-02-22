@@ -1,13 +1,15 @@
-# editing/reloading these configs
+# editing/reloading configs
 alias editAliases="open -e ~/.aliases"
 alias reloadAliases="source ~/.aliases"
+alias editConf="sudo nano /private/etc/apache2/users/*.conf"
+alias editHosts="sudo nano /private/etc/hosts"
 
 # dir navigation
 alias cdd="cd ~/Desktop"
+alias cds="cd ~/Sites"
 alias cdbb="cd ~/Sites/BuildingBlocks"
 alias cdg="cd ~/Sites/GitHub"
 alias cdl="cd ~/Sites/Labs"
-alias cds="cd ~/Sites"
 
 # shortcuts
 alias ..="cd ../"
@@ -24,7 +26,7 @@ alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall F
 
 # laziness
 alias sbl="open -a /Applications/Sublime\ Text.app "
-alias trello="open -a /Applications/Trello.app"
+alias trello="open -a /Applications/Trello.app" # Trello Fluid app
 alias url="open -a /Applications/Google\ Chrome.app "
 alias op="open *.sublime-project"
 

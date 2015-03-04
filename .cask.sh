@@ -1,4 +1,6 @@
-#!/bin/sh
+# cask.sh
+
+# Some apps rely on homebrew-versions - `brew tap caskroom/versions` is ran in `.brew.sh`
 
 # Core Functionality
 echo Installing core apps…
@@ -12,16 +14,17 @@ brew cask install --appdir="/Applications" vlc
 
 # Development apps
 echo Installing dev apps…
-brew cask install --appdir="/Applications" adobe-creative-cloud
-brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" brackets
+# brew cask install --appdir="/Applications" adobe-creative-cloud
+# brew cask install --appdir="/Applications" atom
+# brew cask install --appdir="/Applications" brackets
 brew cask install --appdir="/Applications" color-oracle
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
+brew cask install --appdir="/Applications" mamp # Cos you’ll need PHP SOME time…
 brew cask install --appdir="/Applications" remote-desktop-connection
-brew cask install --appdir="/Applications" sublime-text-3
-# brew cask install --appdir="/Applications" sourcetree # Cos who needs a GUI?! >:(
+brew cask install --appdir="/Applications" sublime-text3
+brew cask install --appdir="/Applications" sourcetree # Cos you’ll need a GUI SOME time…
 brew cask install --appdir="/Applications" textwrangler
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
@@ -39,7 +42,8 @@ echo Installing some additional apps…
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" tunnelbear
-brew cask install --appdir="/Applications" utorrent
+# brew cask install --appdir="/Applications" utorrent
+
 
 # Linking Cask apps to Alfred
 echo Linking apps to Alfred…

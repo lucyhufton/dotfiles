@@ -21,6 +21,9 @@ brew install git-flow
 echo Installing Node…
 brew install node
 
+echo Installing Imagemagick…
+brew install imagemagick
+
 # echo Installing MongoDB…
 brew install mongodb
 

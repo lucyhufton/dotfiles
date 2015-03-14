@@ -1,24 +1,20 @@
-# Ask for the administrator password upfront
-sudo -v
+# Update Repos
 
-# Keep-alive: update existing `sudo` time stamp until `.update-repos.sh` has finished
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+for dir in {BuildingBlocks,GitHub}; do
+	cd ~/Sites/$dir
 
-# Go to GitHub repos
-cd ~/Sites/GitHub;
-
-for n in *; do
-	if [ -d "$n" ]; then
-		cd "$n"
+	for n in *; do
+		if [ -d "$n" ]; then
+			cd "$n"
 			if [ ! -d ".git" ]; then
 				echo "`tput setaf 1`'$n' is not a git repository…`tput setaf 7`"
 			else
 				echo "`tput setaf 4`Updating" $n"…`tput setaf 7`" && git pull
 			fi
-		cd ../
-	fi
+			cd ../
+		fi
+	done
+	echo -e "`tput setaf 2`Done…All $dir repos are up to date.\n `tput setaf 7`"
+	unset n
 done
-
-echo -e "`tput setaf 2`Done…All GitHub repos are up to date.\n `tput setaf 7`"
-
-unset n
+unset dir

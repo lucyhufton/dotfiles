@@ -41,6 +41,7 @@ brew cask install --appdir="/Applications" virtualbox
 # Additional apps
 echo Installing some additional apps…
 brew cask install --appdir="/Applications" appcleaner
+brew cask install --appdir="/Applications" recordit
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" tunnelbear
 brew cask install --appdir="/Applications" utorrent

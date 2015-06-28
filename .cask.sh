@@ -27,6 +27,7 @@ brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" brackets
 brew cask install --appdir="/Applications" color-oracle
 # brew cask install --appdir="/Applications" cord # Uncomment if you want this instead of RCD
+brew cask install --appdir="/Applications" evernote
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim

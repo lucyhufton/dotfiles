@@ -16,8 +16,6 @@ alias ..="cd ../"
 alias ~="cd ~"
 alias cl="clear"
 alias l="ls -la"
-alias rem="sudo rm -R"
-alias restart="sudo apachectl restart"
 alias updateRepos="bash ~/.update-repos.sh"
 
 # hacks to show/hide hidden/dot files
@@ -30,12 +28,10 @@ alias trello="open -a /Applications/Trello.app" # Trello Fluid app
 alias url="open -a /Applications/Google\ Chrome.app "
 alias op="open *.sublime-project"
 
-# puuure laziness
+# pure laziness
 alias bitbucket="open -a /Applications/Google\ Chrome.app https://bitbucket.org"
 alias drive="open -a /Applications/Google\ Chrome.app http://drive.google.com"
 alias github="open -a /Applications/Google\ Chrome.app https://github.com"
-alias mail="open -a /Applications/Google\ Chrome.app http://mail.google.com"
-alias travis="open -a /Applications/Google\ Chrome.app https://travis-ci.org"
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
@@ -73,8 +69,6 @@ alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
 
-# Recursively delete `.DS_Store` files
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
 # Empty the Trash on all mounted volumes and the main HDD
 # Also, clear Apple’s System Logs to improve shell startup speed

@@ -24,8 +24,8 @@ brew install node
 echo Installing Imagemagick…
 brew install imagemagick
 
-# echo Installing MongoDB…
-brew install mongodb
+# echo Installing Mysql
+brew install mysql
 
 # Install Brew Cask for managing other apps
 echo Installing Brew Cask…

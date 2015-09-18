@@ -1,6 +1,9 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
+# Add puppet to the PATH
+export PATH=$PATH:/opt/puppetlabs/bin
+
 # Load the shell dotfiles, and then some:
 for file in ~/.{aliases,functions}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";

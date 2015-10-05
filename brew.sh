@@ -54,3 +54,7 @@ brew install caskroom/cask/brew-cask
 
 # Install Cask versions for beta version of apps :D
 brew tap caskroom/versions
+
+# Install iproute
+brew tap brona/iproute2mac
+brew install iproute2mac

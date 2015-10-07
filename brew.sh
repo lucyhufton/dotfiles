@@ -58,3 +58,8 @@ brew tap caskroom/versions
 # Install iproute
 brew tap brona/iproute2mac
 brew install iproute2mac
+
+# Install mcrypt extensions
+
+brew tap homebrew/php
+brew install php55-mcrypt --without-homebrew-php

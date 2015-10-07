@@ -13,7 +13,6 @@ brew cask install --appdir="/Applications" textwrangler
 brew cask install --appdir="/Applications" vagrant
 
 # cleanup
-echo Cleaning up…
 brew cleanup --force
 
 rm -f -r /Library/Caches/Homebrew/*

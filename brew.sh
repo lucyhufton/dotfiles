@@ -3,7 +3,6 @@
 # Install command-line tools using Homebrew
 
 # Install Homebrew
-echo Installing Homebrew \(gets Xcode cli developer tools too\)…
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 sudo xcodebuild -license
 
@@ -33,23 +32,19 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install Git
-echo Installing Git…
 brew install git
 brew install git-extras # Debating whether this is that useful…
 brew install git-flow
 
 # Install Node.js - this installs `npm` too, using the recommended installation method
-echo Installing Node…
 brew install node
 
-echo Installing Imagemagick…
 brew install imagemagick
 
 # echo Installing Mysql
 brew install mysql
 
 # Install Brew Cask for managing other apps
-echo Installing Brew Cask…
 brew install caskroom/cask/brew-cask
 
 # Install Cask versions for beta version of apps :D

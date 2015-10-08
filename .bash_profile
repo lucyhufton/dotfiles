@@ -20,3 +20,5 @@ shopt -s histappend;
 shopt -s cdspell;
 
 export HISTTIMEFORMAT="%d/%m/%y %T - "
+
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
